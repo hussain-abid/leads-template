@@ -1,0 +1,10 @@
+@mixin my-box-shadow($var) {
+
+  -webkit-box-shadow: $var;
+  -khtml-box-shadow: $var;
+  -moz-box-shadow: $var;
+  -ms-box-shadow: $var;
+  -o-box-shadow: $var;
+  box-shadow: $var;
+
+}

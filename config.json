@@ -1,0 +1,152 @@
+{
+  "global":{
+    "assets":{
+      "copy":[
+        "assets/**/*"
+      ],
+      "exclude":[
+        "!assets/css/software.css",
+        "!assets/scss/software.scss",
+        "!assets/css/software.min.css",
+        "!assets/css/event.css",
+        "!assets/scss/event.scss",
+        "!assets/css/event.min.css",
+        "!assets/css/travel.css",
+        "!assets/scss/travel.scss",
+        "!assets/css/travel.min.css",
+        "!assets/css/index.css",
+        "!assets/scss/index.scss",
+        "!assets/css/index.min.css",
+        "!assets/img/**/*",
+        "!assets/img/"
+      ]
+    },
+    "vendor":{
+      "copy":[
+        "vendor/**/*"
+      ],
+      "exclude":[
+        "!vendor/image-scroll/**/*",
+        "!vendor/image-scroll/",
+        "!vendor/jquery-lazy/**/*",
+        "!vendor/jquery-lazy/"
+      ]
+    }
+  },
+  "software": {
+    "copy_images": [
+      "assets/img/software/favicon.ico",
+      "assets/img/software/logo-dark.png",
+      "assets/img/software/logo.png",
+      "assets/img/software/hero.png",
+      "assets/img/software/loader.svg"
+    ],
+    "replace_images": {
+      "html": [
+        ["assets/img/software/feature_1.png", "https://via.placeholder.com/700x500.png"],
+        ["assets/img/software/feature_2.png", "https://via.placeholder.com/700x500.png"],
+        ["assets/img/software/request_demo.png", "https://via.placeholder.com/400x400.png"],
+        ["assets/img/software/main_features_img.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/news_letter.png", "https://via.placeholder.com/350x350.png"],
+        ["assets/img/software/video_section_image_illustration.png", "https://via.placeholder.com/100x100.png"],
+        ["assets/img/software/hero-image.png", "https://via.placeholder.com/1200x650.png"],
+        ["assets/img/software/logo1.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo2.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo3.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo4.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo5.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo6.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo7.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo8.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo9.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo10.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo11.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/logo12.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/software/testimonial_1.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/testimonial_2.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/testimonial_3.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/testimonial_4.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/testimonial_5.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/software/testimonial_6.png", "https://via.placeholder.com/200x200.png"]
+      ],
+      "cssAndScss": [
+        ["../img/software/video_img_2.jpg", "https://via.placeholder.com/500x500.png"]
+      ]
+    }
+  },
+  "event": {
+    "copy_images": [
+      "assets/img/event/favicon.ico",
+      "assets/img/event/logo-dark.png",
+      "assets/img/event/logo.png",
+      "assets/img/event/hero_bottom.png",
+      "assets/img/event/loader.svg"
+    ],
+    "replace_images": {
+      "html": [
+
+        ["assets/img/event/request_demo.png", "https://via.placeholder.com/400x400.png"],
+        ["assets/img/event/logo1.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo2.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo3.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo4.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo5.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo6.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo7.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo8.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo9.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo10.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo11.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/logo12.png", "https://via.placeholder.com/500x500.png"],
+        ["assets/img/event/testimonial_1.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/testimonial_2.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/testimonial_3.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/testimonial_4.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/testimonial_5.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/testimonial_6.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/event/photo_1.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/event/photo_2.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/event/photo_3.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/event/photo_4.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/event/photo_5.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["AIzaSyC2_BDH4OIVZrXb5RllKeD8G5s6ML2RasI", "API_KEY"]
+      ],
+      "cssAndScss": [
+        ["../img/event/e-audience.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["../img/event/video_img_2.jpg", "https://via.placeholder.com/500x500.png"]
+      ]
+    }
+  },
+  "travel": {
+    "copy_images": [
+      "assets/img/travel/favicon.ico",
+      "assets/img/travel/logo-dark.png",
+      "assets/img/travel/logo.png",
+      "assets/img/travel/loader.svg"
+    ],
+    "replace_images": {
+      "html": [
+        ["assets/img/travel/testimonial_1.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/testimonial_2.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/testimonial_3.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/testimonial_4.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/testimonial_5.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/testimonial_6.png", "https://via.placeholder.com/200x200.png"],
+        ["assets/img/travel/photo_1.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/travel/photo_2.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/travel/photo_3.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/travel/photo_4.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/travel/photo_5.jpg", "https://via.placeholder.com/1200x900.png"],
+        ["assets/img/travel/explore-1.jpg", "https://via.placeholder.com/400x400.png"],
+        ["assets/img/travel/explore-2.jpg", "https://via.placeholder.com/400x400.png"],
+        ["assets/img/travel/explore-3.jpg", "https://via.placeholder.com/400x400.png"],
+        ["AIzaSyC2_BDH4OIVZrXb5RllKeD8G5s6ML2RasI", "API_KEY"]
+      ],
+      "cssAndScss": [
+        ["../img/travel/video_img_2.jpg", "https://via.placeholder.com/500x500.png"],
+        ["../img/travel/video_img.jpg", "https://via.placeholder.com/500x500.png"],
+        ["../img/travel/hero.jpg", "https://via.placeholder.com/1200x900.png"]
+      ]
+    }
+  }
+}

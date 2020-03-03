@@ -1,0 +1,30 @@
+{
+  "name": "superLeads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "gulp-image": "^4.4.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-string-replace": "^1.1.2",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "grunt-sass": "^3.0.2",
+    "gulp": "^3.9.1",
+    "gulp-batch-replace": "0.0.0",
+    "gulp-install": "^1.1.0"
+  }
+}
