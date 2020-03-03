@@ -11,8 +11,8 @@ Travel
 
 Enjoy Give a star if you like it :)
 
-[software]: https://github.com/hussainabidbest/leads-template/raw/master/screenshot.png "software"
-[event]: https://github.com/hussainabidbest/leads-template/raw/master/screenshot.png "event"
-[travel]: https://github.com/hussainabidbest/leads-template/raw/master/screenshot.png "travel"
+[software]: https://github.com/hussainabidbest/leads-template/raw/master/software.png "software"
+[event]: https://github.com/hussainabidbest/leads-template/raw/master/event.png "event"
+[travel]: https://github.com/hussainabidbest/leads-template/raw/master/travel.png "travel"
 
 
